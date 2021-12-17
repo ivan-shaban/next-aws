@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "testnextjs",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Work\\nextjs\\next-aws\\amplify\\backend\\api\\testnextjs\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authtestnextjs354d9790"
+      }
+    ]
+  }
+}

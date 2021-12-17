@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "testnextjs",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authtestnextjs354d9790",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
